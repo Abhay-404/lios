@@ -29,8 +29,12 @@ Output Insert position, image rotation and zoom options, etc
 
 Installing
 ======
-Dependency list : python3, python3-imaging-sane|python3-sane, python3-speechd, tesseract-ocr,
-imagemagick, cuneiform, espeak,poppler-utils, python3-enchant,aspell-en, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0
+
+>First, install the below dependencies:
+```Bash
+sudo apt install python3 python3-sane python3-speechd python3-gi-cairo tesseract-ocr imagemagick cuneiform espeak poppler-utils python3-enchant libgtk-3-dev
+aspell-en gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 
+```
 
 ```
 git clone https://github.com/zendalona/lios.git
